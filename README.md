@@ -40,7 +40,7 @@ https://localhost:8080
 
                                 LOCAL KUBERNETES CLUSTER  -- Break 
                                
-# In summary: 
+# THE SOLUTION IDEA: 
 ###### 1- Setting up 1 master and 2 worker nodes using Vagrant
 ###### 2- Installing kubernetes inside these VMs
 ###### 3- Installing Jenkins on the master
