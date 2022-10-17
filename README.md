@@ -1,14 +1,22 @@
-# Kubernetes-Installation-using-Vagrantfile
+# PostgreBackup-Using-Kubernetes-Cronjob
 ## DevOps Project
 
 ### Project Requirements
 
++ Shell Scripting
++ Vagrant
++ Terraform
++ Helm Chart
 + Docker
-+ Docker Registry
++ Kubernetes
 + Jenkins
 + Ubuntu 21.04
++ Redis
++ PostgreSQL
 
-** _NOTE : All installations mentioned below are done on worker node02._ **
+** _NOTE : We will create 1 master and 2 worker nodes using Vagrant. **
+
+** _NOTE : We will use Terraform to create infrastructure for local clusters to run on the cloud. **
 
 `vagrant up` --> all Clusters are started.<br>
 `vagrant status`--> check the status of Clusters<br> 
@@ -44,6 +52,7 @@ Copy the dockerfile to your own dockerfile.
 `docker push ibrahimbudak/node-express:1.0.0 `<br>
 `docker ps -a `<br>
 ![Docker-Logo_Horizontel_279x131 b8a5c41e56b77706656d61080f6a0217a3ba356d](https://user-images.githubusercontent.com/42733209/169891616-651a706f-8ca6-4286-baa9-5f2256e5f13e.png)
+
 
 
 
