@@ -37,20 +37,19 @@ https://localhost:8080
 ![1_fiOou8ZYaZe-Ka8NUyovMw](https://user-images.githubusercontent.com/42733209/169891698-0469019b-d39f-4775-acdc-12db2a33d819.png)
 
 
-## Create Dockerfile 
 
-                                Local Kubernetes Cluster -- Break 
+                                LOCAL KUBERNETES CLUSTER  -- Break 
                                
 # In summary: 
-## 1- Setting up 1 master and 2 worker nodes using Vagrant
-## 2- Installing kubernetes inside these VMs
-## 3- Installing Jenkins on the master
-## 4- Creating a postgre pod on Node1
-## 5- Creating a redis pod on Node2
-## 6- Yaml files should be prepared for these installations in the master.
-## 7- Kubernetes cronjob will be prepared for Postgre backup in master. A sh will be written about it.
-## 8- We will make Helm after the kubernetes installation and manage all the deployment processes through this chart.
-## 9- Establishing the infrastructure that can work on the cloud with Terraform
+### 1- Setting up 1 master and 2 worker nodes using Vagrant
+### 2- Installing kubernetes inside these VMs
+### 3- Installing Jenkins on the master
+### 4- Creating a postgre pod on Node1
+### 5- Creating a redis pod on Node2
+### 6- Yaml files should be prepared for these installations in the master.
+### 7- Kubernetes cronjob will be prepared for Postgre backup in master. A sh will be written about it.
+### 8- We will make Helm after the kubernetes installation and manage all the deployment processes through this chart.
+### 9- Establishing the infrastructure that can work on the cloud with Terraform
 
 
 
