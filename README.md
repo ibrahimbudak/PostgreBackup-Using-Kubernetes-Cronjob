@@ -39,19 +39,13 @@ https://localhost:8080
 
 ## Create Dockerfile 
 
-Copy the dockerfile to your own dockerfile.
-
-`touch .dockerignore`<br>
-`docker build -t node-express:1.0.0`<br>
-`docker history node-express:1.0.0`<br>
-`docker images`<br>
-`docker run -p 3000:3000 node-express:1.0.0`<br>
-`docker container ls -a`<br>
-`docker commit cb463fd48158 ibrahimbudak/node-express:1.0.0 `<br>
-`docker images `<br>
-`docker push ibrahimbudak/node-express:1.0.0 `<br>
-`docker ps -a `<br>
-![Docker-Logo_Horizontel_279x131 b8a5c41e56b77706656d61080f6a0217a3ba356d](https://user-images.githubusercontent.com/42733209/169891616-651a706f-8ca6-4286-baa9-5f2256e5f13e.png)
+                                Local Kubernetes Cluster
+                                
+VM1(ubuntu)		    VM2(ubuntu)	              VM3(ubuntu)
+master				      node1				              node2
+kubectl				      kubectl				            kubectl					  			
+podM: Helm			    podA:Postgre			        podB:Redıs
+Jenkıns
 
 
 
