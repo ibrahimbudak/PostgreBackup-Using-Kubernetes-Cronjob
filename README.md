@@ -9,8 +9,8 @@
 + Helm Chart
 + Docker +
 + Kubernetes +
-+ Jenkins 
-+ Ubuntu 21.04
++ Jenkins +
++ Ubuntu 21.04 +
 + Redis
 + PostgreSQL
 
