@@ -3,13 +3,13 @@
 
 ### Project Requirements
 
-+ Shell Scripting
-+ Vagrant
++ Shell Scripting +
++ Vagrant +
 + Terraform
 + Helm Chart
-+ Docker
-+ Kubernetes
-+ Jenkins
++ Docker +
++ Kubernetes +
++ Jenkins 
 + Ubuntu 21.04
 + Redis
 + PostgreSQL
